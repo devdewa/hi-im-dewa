@@ -24,7 +24,7 @@ export default function About() {
                                 I am a person who is very interested in technology. Graduated from SMKN 1 Jakarta majoring in Software Engineering.
                                 </p>
                                 <p>
-                                I have internship experience at Pusmenjar Kemendikbud, I did an internship for approximately 3 months. Now I work in a company in West Jakarta, currently in my fourth month.
+                                I have internship experience at Pusmenjar Kemendikbud, I did an internship for approximately three months. Now I work in a company in West Jakarta, currently in my fourth month
                                 </p>
                                 <p>
                                 I have expertise in developing Websites and regularly upgrade my skills as technology becomes more up-to-date.
