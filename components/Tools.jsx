@@ -6,19 +6,19 @@ const tools = [
     {
         name: 'Laravel',
         icon: '/images/tools/laravel.svg',
-        description: 'Laravel is PHP framework',
+        description: 'PHP - Framework',
         url: 'https://laravel.com',
     },
     {
         name: 'React JS',
         icon: '/images/tools/react.svg',
-        description: "React JS is Javascript framework",
+        description: "Javascript - Library",
         url: 'https://reactjs.org',
     },
     {
         name: 'Vue JS',
         icon: '/images/tools/vue.svg',
-        description: 'Vue JS is Javascript framework',
+        description: 'Javascript - Framework',
         url: 'https://vuejs.org',
     },
 ];
