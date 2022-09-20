@@ -14,7 +14,7 @@ export const socials = [
     },
     {
         name: 'Instagram',
-        url: 'https://instagram.com/741_dewa',
+        url: 'https://instagram.com/dev_dewa_id',
         icon: IconBrandInstagram,
     },
     {
