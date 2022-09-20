@@ -48,6 +48,12 @@ const tools = [
         description: 'For design or illustration',
         url: 'https://www.figma.com',
     },
+    {
+        name: 'VS Code',
+        icon: '/images/tools/vscode.svg',
+        description: 'For code editor',
+        url: 'https://code.visualstudio.com',
+    },
 ];
 export default function Tools() {
     return (
