@@ -21,19 +21,19 @@ export default function About() {
                             </PageTitle>
                             <section className="prose dark:prose-invert lg:prose-lg">
                                 <p>
-                                    I am a person who has a great interest in technology. He studied at SMKN 1 Jakarta with a major in Software Engineering.
+                                I am a person who is very interested in technology. Graduated from SMKN 1 Jakarta majoring in Software Engineering.
                                 </p>
                                 <p>
-                                    I have an internship experience at Pusmenjar Kemendikbud, I did an internship for more or less 3 months.
+                                I have internship experience at Pusmenjar Kemendikbud, I did an internship for approximately 3 months. Now I work in a company in West Jakarta, currently in my fourth month.
                                 </p>
                                 <p>
-                                    I have expertise in developing Websites and regularly improve my skills as technology becomes more up to date.
+                                I have expertise in developing Websites and regularly upgrade my skills as technology becomes more up-to-date.
                                 </p>
                                 <p>
-                                    In building a website, I am able to work individually or as a team. For competitions and the results of the website that I developed, you can check through my web portfolio
+                                In building a website, I am able to work individually or in a team. For competitions and the results of the website that I developed, you can check through my web portfolio.
                                 </p>
                                 <p>
-                                    Link: dewaprogramming.netlify.app
+                                <a href="https://dewaprogramming.netlify.app">dewaprogramming.netlify.app</a>
                                 </p>
                             </section>
                         </div>
