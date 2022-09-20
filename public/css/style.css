@@ -1,0 +1,120 @@
+:root {
+    --background: #1f2937;
+    --blue: #a5caff;
+    --purple: #ab9df2;
+    --lime: #a9dc76;
+    --green: #6ee7b7;
+    --red: #fda4af;
+    --pink: #f45282;
+    --orange: #fc9867;
+    --yellow: #ffe2b8;
+    --white: #e2e8f0;
+    --gray: #64748b;
+    --gray-light: #d1d5db;
+    --cyan: #8cfff9;
+}
+
+pre {
+    @apply border border-transparent shadow dark:border-gray-700/80 dark:bg-gray-800;
+}
+
+pre code.hljs {
+    display: block;
+    overflow-x: auto;
+    /* padding: 1em; */
+}
+code.hljs {
+    padding: 3px 5px;
+}
+.hljs {
+    font-size: 13px;
+    color: var(--white);
+}
+.hljs ::selection,
+.hljs::selection {
+    background-color: #32374d;
+    color: var(--white);
+}
+.hljs-comment {
+    color: #676e95;
+}
+.hljs-tag {
+    color: #8796b0;
+}
+.hljs-operator,
+.hljs-punctuation,
+.hljs-subst {
+    color: var(--white);
+}
+.hljs-operator {
+    opacity: 0.7;
+}
+.hljs-bullet,
+.hljs-deletion,
+.hljs-name,
+.hljs-selector-tag,
+.hljs-template-variable,
+.hljs-variable {
+    color: var(--pink);
+}
+.hljs-attr,
+.hljs-link,
+.hljs-literal,
+.hljs-number,
+.hljs-symbol,
+.hljs-variable.constant_ {
+    color: var(--blue);
+}
+.hljs-class .hljs-title,
+.hljs-title,
+.hljs-title.class_ {
+    color: var(--pink);
+}
+.hljs-strong {
+    font-weight: 700;
+    color: #ffcb6b;
+}
+.hljs-addition,
+.hljs-code,
+.hljs-string,
+.hljs-title.class_.inherited__ {
+    color: var(--yellow);
+}
+.hljs-built_in,
+.hljs-doctag,
+.hljs-keyword.hljs-atrule,
+.hljs-quote,
+.hljs-regexp {
+    color: #89ddff;
+}
+.hljs-attribute,
+.hljs-function .hljs-title,
+.hljs-section,
+.hljs-title.function_,
+.ruby .hljs-property {
+    color: var(--blue);
+}
+.diff .hljs-meta,
+.hljs-keyword,
+.hljs-template-tag,
+.hljs-type {
+    color: var(--gray-light);
+}
+.hljs-emphasis {
+    color: #c792ea;
+    font-style: italic;
+}
+.hljs-meta,
+.hljs-meta .hljs-keyword,
+.hljs-meta .hljs-string {
+    color: var(--pink);
+}
+.hljs-meta .hljs-keyword,
+.hljs-meta-keyword {
+    font-weight: 700;
+}
+
+.language-jsx .hljs-title.function_,
+.language-javascript .hljs-title.function_ {
+    color: var(--pink);
+}

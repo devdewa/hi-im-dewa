@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './code.css';
+@layer components {
+    .prose h3 a,
+    .prose h3,
+    .prose h4,
+    .prose h2 {
+        @apply mb-1 scroll-mt-4 bg-gradient-to-tr from-orange-500 via-pink-500 to-rose-500 bg-clip-text font-bold text-transparent;
+    }
+
+    .prose .toc {
+        @apply !w-full lg:absolute lg:right-0;
+    }
+    .prose .toc ol {
+        @apply lg:!mt-0 lg:list-none lg:!pl-0;
+    }
+    .prose .toc ol li {
+        @apply text-base font-normal lg:!ml-0 lg:!mt-0 lg:!pl-0 lg:text-right;
+    }
+
+    .prose .toc::before {
+        content: 'Table of Contents';
+        @apply mb-4 block bg-gradient-to-tr from-orange-500 via-pink-500 to-yellow-500 bg-clip-text font-semibold text-transparent lg:text-right;
+    }
+
+    .prose .toc-link.toc-link-h3 {
+        @apply w-full;
+    }
+}
