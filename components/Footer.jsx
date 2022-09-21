@@ -12,6 +12,7 @@ export default function Footer() {
                     <ul className="flex items-center gap-x-4">
                         <NavLink href="/" value="Home" />
                         <NavLink href="/about" value="About" />
+                        <NavLink href="/client" value="Client" />
                         <NavLink href="/tools" value="Tools" />
                     </ul>
                     <div className={clsx(styles.textMuted, 'text-right')}>
