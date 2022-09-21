@@ -13,6 +13,7 @@ export default function Footer() {
                         <NavLink href="/" value="Home" />
                         <NavLink href="/about" value="About" />
                         <NavLink href="/client" value="Client" />
+                        <NavLink href="/projects" value="Project" />
                         <NavLink href="/tools" value="Tools" />
                     </ul>
                     <div className={clsx(styles.textMuted, 'text-right')}>

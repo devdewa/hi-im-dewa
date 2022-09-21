@@ -20,6 +20,7 @@ export default function Navbar() {
             <ul className="overflow-hidden flex lg:px-4 items-center rounded-full bg-white shadow dark:bg-gray-700/50">
                 <NavLink href="/about" value="About" />
                 <NavLink href="/client" value="Client" />
+                <NavLink href="/projects" value="Projects" />
                 <NavLink href="/tools" value="Tools" />
             </ul>
             <div className="ml-2">
