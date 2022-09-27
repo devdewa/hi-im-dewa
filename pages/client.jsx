@@ -22,6 +22,7 @@ export default function Client() {
                 url={`https://hi-im-dewa.vercel.app/client`}
             />
             <div className={styles.whiteLayoutWithPaddingY}>
+                {/* 2 Client */}
                 <Container>
                     <div className="mb-4">
                         <PageTitle>Client</PageTitle>
