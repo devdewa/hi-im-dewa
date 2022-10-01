@@ -35,7 +35,7 @@ export default function Projects() {
                                         className={clsx(
                                             'flex w-full text-lg text-white font-semibold text-center mb-4'
                                         )}>
-                                        {project.description} - {project.name}
+                                        {project.description}
                                     </dd>
                                     <dd className="w-full flex-none">
                                     <Image
