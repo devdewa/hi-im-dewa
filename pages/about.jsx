@@ -33,7 +33,7 @@ export default function About() {
                                 In building a website, I am able to work individually or in a team. For competitions and the results of the website that I developed, you can check through my web portfolio.
                                 </p>
                                 <p>
-                                <a href="https://dewaprogramming.netlify.app">dewaprogramming.netlify.app</a>
+                                <a href="https://dewaprogramming.vercel.app">dewaprogramming.vercel.app</a>
                                 </p>
                             </section>
                         </div>
